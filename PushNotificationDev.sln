@@ -5,6 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushNotificationDev", "Push
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backendless Standard (VS2017)", "..\felenko\XamarinFCM.git\Backendless Standard (VS2017)\Backendless Standard (VS2017).csproj", "{AB857E6E-89E4-4DA4-ADC4-F18A3D718AC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10DBE4EE-B135-43C8-B4F9-CCD3A3122A7B}"
+	ProjectSection(SolutionItems) = preProject
+		PushNotificationDev.sln = PushNotificationDev.sln
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetConsoleSender", "NetConsoleSender\NetConsoleSender.csproj", "{084E8031-ADDA-449D-8486-D7023405F29C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -29,5 +36,13 @@ Global
 		{AB857E6E-89E4-4DA4-ADC4-F18A3D718AC5}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{AB857E6E-89E4-4DA4-ADC4-F18A3D718AC5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{AB857E6E-89E4-4DA4-ADC4-F18A3D718AC5}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Release|iPhone.Build.0 = Release|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{084E8031-ADDA-449D-8486-D7023405F29C}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
