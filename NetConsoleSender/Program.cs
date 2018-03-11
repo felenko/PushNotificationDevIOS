@@ -42,10 +42,12 @@ namespace NetConsoleSender
             };
 
 
-            DeliveryOptions deliveryOptions = new DeliveryOptions() {PushPolicy = PushPolicyEnum.ALSO, PushBroadcast = 1};
-
+            //DeliveryOptions deliveryOptions = new DeliveryOptions() {PushPolicy = PushPolicyEnum.ALSO, PushBroadcast = 1};
+            DeliveryOptions deliveryOptions = new DeliveryOptions() { PushPolicy = PushPolicyEnum.ONLY, PushBroadcast = 0};
+            var deviceId = "7afaed6e-ff92-47e5-ba42-18f91c02fbcb";
+            deliveryOptions.PushSinglecast = new List<string>() { deviceId };
            // deliveryOptions.SetPushBroadcast(PushBroadcastMask.ANDROID | PushBroadcastMask.IOS);
-            MessageStatus messageStatus = Backendless.Messaging.Publish("dfslkjfslf",
+            MessageStatus messageStatus = Backendless.Messaging.Publish("Specific Message",
                 message,
                 publishOptions
                 );
